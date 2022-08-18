@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ImagesBox from './ImagesBox';
+import ImagesProvider from './ImagesProvider';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <ImagesBox></ImagesBox>
+        <ImagesProvider></ImagesProvider>
         <a
           className="App-link"
           href="https://reactjs.org"
